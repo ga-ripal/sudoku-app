@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "8a1ccc33-3f9a-41a0-b38c-9c3c4aab96d6",
+		"name": "SUDOKU",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create Sudoku",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"data\":[  \r\n      [2, null, 5, null, null, 9, null, null, 4],\r\n      [null, null, null, null, null, null, 3, null, 7],\r\n      [7, null, null, 8, 5, 6, null, 1, null],\r\n      [4, 5, null, 7, null, null, null, null, null],\r\n      [null, null, 9, null, null, null, 1, null, null],\r\n      [null, null, null, null, null, 2, null, 8, 5],\r\n      [null, 2, null, 4, 1, 8, null, null, 6],\r\n      [6, null, 8, null, null, null, null, null, null],\r\n      [1, null, null, 2, null, null, 7, null, 8]\r\n    ]}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8103/api/sudoku",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8103",
+					"path": [
+						"api",
+						"sudoku"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
